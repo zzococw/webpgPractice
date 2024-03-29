@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 자손 선택자와 table 태그</title>
+    <style>
+        table > tr > th {
+            color: orange;
+        }
+        table > tbody > tr > th {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>name</th>
+            <th>region</th>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+        </tr>
+    </table>
+</body>
+</html>
