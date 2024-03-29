@@ -2,18 +2,28 @@
 <html>
 <head>
     <style>
-        a{
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+        * {
+            font-family: 'Noto Sans KR';
+        }
+        a {
             font-size: small;
         }
-        article{
+        article {
             margin: 10px;
+        }
+        address {
+            display: block;
+            font-style: normal;
+            font-size: small;
+            text-align: center;
         }
     </style>
     <title>이채원 개별 실습 정리</title>
 </head>
 <body>
     <header>
-        <h1>HTML archive</h1>
+        <h1>HTML/CSS archive</h1>
     </header>
     <section>
         <article>
@@ -22,7 +32,7 @@
                 <a href="login.html">HTML+CSS 로그인 화면 구성</a><br>
                 <br>
                 <a href="bootstrap.html">부트스트랩</a><br>
-                <a href="navbar.html">부트스트랩 테이블/버튼/네비게이션 바</a><br>
+                <a href="navbar.html">부트스트랩 테이블/버튼/내비게이션 바</a><br>
             </fieldset>
         </article>
         <article>
@@ -51,6 +61,37 @@
                 <h4>HTML5 문서 구조화</h4>
                 <a href="space.html">공간 분할 태그</a><br>
                 <a href="space_semantic.html">시맨틱 태그</a><br>
+            </fieldset>
+        </article>
+        <article>
+            <fieldset>
+                <legend><b>4주차 실습</b></legend>
+                <h4>기본 선택자</h4>
+                <a href="default_wildcard.html">전체 선택자</a><br>
+                <a href="default_tag.html">태그 선택자</a><br>
+                <a href="default_id.html">아이디 선택자</a><br>
+                <a href="default_class.html">클래스 선택자 (1개 사용)</a><br>
+                <a href="default_multiClass.html">클래스 선택자 (여러 개 사용)</a><br>
+                <br>
+                <h4>속성 선택자</h4>
+                <a href="attribute_basic.html">속성 선택자</a><br>
+                <br>
+                <h4>후손 선택자와 자손 선택자</h4>
+                <a href="desc_descendants.html">후손 선택자</a><br>
+                <a href="desc_children.html">자손 선택자</a><br>
+                <a href="desc_tableWithChildren.html">자손 선택자와 테이블 태그</a><br>
+                <br>
+                <h4>기타 선택자</h4>
+                <a href="etc_action.html">반응 선택자</a><br>
+                <a href="etc_state.html">상태 선택자</a><br>
+                <a href="etc_structure.html">구조 선택자</a><br>
+                <br>
+                <h4>CSS3 단위</h4>
+                <a href="size_percent.html">%</a>
+                <a href="size_em.html">em</a>
+                <a href="size_px.html">px</a><br>
+                <a href="color.html">색상 단위</a><br>
+
             </fieldset>
         </article>
     </section>
